@@ -68,6 +68,10 @@ footer {
     max-width: 70%;   /* ou 60%, selon ton goût */
     height: auto;
     border-radius: 8px;   /* optionnel */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* optionnel */
+
+    /* Effets pour éviter le relief */
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent;
 }
 
