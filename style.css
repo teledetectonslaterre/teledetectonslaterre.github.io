@@ -6,7 +6,7 @@
     --blue-pastel: #4caad0;     /* dégradé bandeau */
     --green-pastel: #4fb982;    /* dégradé bandeau */
     --green-dark: #064c42;      /* texte nav + footer */
-    --dark-blue : #4169e1
+    --blue-dark: #1f0890;      /* texte nav + footer */
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 /* Bande de titre */
 .header-banner {
-    background: linear-gradient(to right, var(--blue-pastel), var(--green-pastel));
+    background: linear-gradient(to right, var(--blue-pastel), var(--blue-dark));
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -56,3 +56,9 @@ footer {
     border-top: 2px solid var(--blue-pastel);
 }
 
+/* Surbrillance du bouton actif */
+.navbar-custom .nav-link.active {
+    background-color: var(--blue-pastel);
+    color: white !important;
+    border-radius: 6px;
+}
