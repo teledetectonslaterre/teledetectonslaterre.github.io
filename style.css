@@ -16,7 +16,7 @@ body {
 
 /* Bande de titre */
 .header-banner {
-    background: linear-gradient(to right, var(--blue-pastel), var(--dark-blue));
+    background: linear-gradient(to right, var(--blue-pastel), var(--green-pastel));
     color: white;
     padding: 40px 20px;
     text-align: center;
