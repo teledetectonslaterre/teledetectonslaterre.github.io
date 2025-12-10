@@ -1,9 +1,11 @@
 /* Couleurs pastel pour l'identité visuelle */
+/* Palette pastel plus sombre */
 :root {
-    --blue-light: #d8eff7;
-    --green-light: #dff5e3;
-    --blue-pastel: #6ec5e9;
-    --green-pastel: #7ad1a0;
+    --blue-light: #b9e2f2;      /* arrière-plan */
+    --green-light: #c4e8d0;     /* barre de navigation et footer */
+    --blue-pastel: #4caad0;     /* dégradé bandeau */
+    --green-pastel: #4fb982;    /* dégradé bandeau */
+    --green-dark: #064c42;      /* texte nav + footer */
 }
 
 body {
