@@ -26,12 +26,12 @@ body {
 /* Barre de navigation */
 .navbar-custom {
     background-color: var(--green-light);
+    border: 1px solid #ffffff;
 }
 
 .navbar-custom .nav-link {
     color: #055a4f !important;
     font-weight: 500;
-    border: 1px solid #ffffff
 }
 
 .navbar-custom .nav-link:hover {
