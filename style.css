@@ -6,6 +6,7 @@
     --blue-pastel: #4caad0;     /* dégradé bandeau */
     --green-pastel: #4fb982;    /* dégradé bandeau */
     --green-dark: #064c42;      /* texte nav + footer */
+    --dark-blue : #4169e1
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 /* Bande de titre */
 .header-banner {
-    background: linear-gradient(to right, var(--blue-pastel), var(--green-pastel));
+    background: linear-gradient(to right, var(--blue-pastel), var(--dark-blue));
     color: white;
     padding: 40px 20px;
     text-align: center;
