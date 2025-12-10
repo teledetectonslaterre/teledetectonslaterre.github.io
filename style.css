@@ -4,7 +4,7 @@
     --blue-light: #b9e2f2;      /* arrière-plan */
     --green-light: #c4e8d0;     /* barre de navigation et footer */
     --blue-pastel: #4caad0;     /* dégradé bandeau */
-    --green-pastel: #4fb982;    /* dégradé bandeau */
+    --green-pastel: #9ce0bd;    /* dégradé bandeau */
     --green-dark: #064c42;      /* texte nav + footer */
     --blue-dark: #1f0890;      /* texte nav + footer */
 }
@@ -62,3 +62,12 @@ footer {
     color: white !important;
     border-radius: 6px;
 }
+
+/* ACCUEIL */
+.accueil-image {
+    max-width: 70%;   /* ou 60%, selon ton goût */
+    height: auto;
+    border-radius: 8px;   /* optionnel */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* optionnel */
+}
+
