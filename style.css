@@ -77,12 +77,31 @@ footer {
     background: transparent;
 }
 
+.image-figure {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.image-figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* optionnel */
+}
+
+.image-figure figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+
 .two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr; /* deux colonnes de même largeur */
     gap: 2rem;                     /* espace entre les colonnes */
     align-items: start;
-    padding: 2rem
+    padding: 3rem
 }
 
 /* Optionnel : un peu de mise en forme */
