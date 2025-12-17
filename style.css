@@ -77,3 +77,16 @@ footer {
     background: transparent;
 }
 
+.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* deux colonnes de même largeur */
+    gap: 2rem;                     /* espace entre les colonnes */
+    align-items: start;
+}
+
+/* Optionnel : un peu de mise en forme */
+.column {
+    padding: 1rem;
+}
+
+
