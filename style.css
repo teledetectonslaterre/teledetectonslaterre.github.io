@@ -82,6 +82,7 @@ footer {
     grid-template-columns: 1fr 1fr; /* deux colonnes de même largeur */
     gap: 2rem;                     /* espace entre les colonnes */
     align-items: start;
+    padding: 2rem
 }
 
 /* Optionnel : un peu de mise en forme */
