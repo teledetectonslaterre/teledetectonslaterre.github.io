@@ -11,14 +11,16 @@ Placés en orbite autour de la Terre, ils sont envoyés à une altitude spécifi
 
 </div>
 
-<div class="container-content">
+<div class="two-columns">
+
+<section class="column">
 <h2>Les avions</h2>
 
 Ils permettent d'acquérir des images sur une zone de taille moyenne, comme une région ou un département français.
 
-</div>
+</section>
 
-<div class="container-content">
+<section class="column">
 <h2>Les drones</h2>
 
 Ils permettent de survoler des zones beaucoup plus petites et de façon plus adaptables à des études de cas très spécifiques.
