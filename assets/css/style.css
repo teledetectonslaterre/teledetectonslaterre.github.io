@@ -24,6 +24,23 @@ body {
 }
 
 /* Barre de navigation */
+.navbar-nav {
+    flex-wrap: nowrap;
+}
+
+.navbar-custom {
+    overflow-x: auto;
+}
+
+.navbar-custom::-webkit-scrollbar {
+    height: 6px;
+}
+
+.navbar-custom::-webkit-scrollbar-thumb {
+    background-color: var(--blue-pastel);
+    border-radius: 3px;
+}
+
 .navbar-custom {
     background-color: var(--green-light);
     border: 2px solid #ffffff;
