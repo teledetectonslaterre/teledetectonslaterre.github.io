@@ -6,7 +6,7 @@ header: Accueil
 ---
 
 <div class="text-center my-4 container-content">
-Qu'est-ce que la télédétection ? Qu'est-ce que la géomatique ?<br><br>
+<strong><em>Qu'est-ce que la télédétection ? Qu'est-ce que la géomatique ?</em></strong><br><br>
 
 Il faut avouer que ce ne sont pas des questions que l'on se pose tous les jours. Pourtant, la géomatique nous permet d'enjamber une foule d'obstacles au quotidien et la télédétection nous donne un aperçu d'objets et de phénomènes que nous n'aurions jamais imaginé.
 </div>
