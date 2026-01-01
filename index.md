@@ -6,8 +6,9 @@ header: Accueil
 ---
 
 <div class="text-center my-4 container-content">
-Qu'est-ce que la télédétection ? Qu'est-ce que la géomatique ?  
-La géomatique nous permet d'enjamber une foule d'obstacles au quotidien…
+Qu'est-ce que la télédétection ? Qu'est-ce que la géomatique ?<br><br>
+
+Il faut avouer que ce ne sont pas des questions que l'on se pose tous les jours. Pourtant, la géomatique nous permet d'enjamber une foule d'obstacles au quotidien et la télédétection nous donne un aperçu d'objets et de phénomènes que nous n'aurions jamais imaginé.
 </div>
 
 <div class="two-columns">
@@ -21,7 +22,7 @@ La géomatique nous permet d'enjamber une foule d'obstacles au quotidien…
 <figcaption>Carte Cassini (1756-1815)</figcaption>
 </figure>
 
-Il était beau le temps des Alexandre le Grand, des Magellan, des Amundsen ! Ces explorateurs qui partaient avec un matériel dérisoire pour cartographier des contrées inconnues. Les techniques ont évoluées mais la volonté de comprendre la terre sur laquelle nous vivons reste la même. Que ce soit pour asseoir l'autorité d'un Etat, ouvrir de nouvelles routes commerciales, vérifier la propriété d'un terrain ou même retrouver un arrêt de bus, les cartes sont indispensables.
+Il était beau le temps des Alexandre le Grand, des Magellan, des Amundsen ! Ces explorateurs qui partaient avec un matériel dérisoire pour cartographier des contrées inconnues. Les techniques ont évoluées mais la volonté de comprendre la terre sur laquelle nous vivons reste la même. Que ce soit pour asseoir l'autorité d'un Etat, ouvrir de nouvelles routes commerciales, vérifier la propriété d'un terrain ou même retrouver un arrêt de bus, les cartes sont indispensables.<br><br>
 
 Au XXIème siècle, la cartographie passe par un ordinateur. C'est moins glamour mais ça étend largement le champs des possibles. Alors que Magellan devait attendre le bon horaire et prendre plusieurs minutes pour estimer sa position avec une précision plus qu'approximative, nous pouvons maintenant connaître notre position en ville à moins de 5m à tout moment ! Nous pouvons suivre les mouvement de dauphins au cours de plusieurs années dans la Méditerranée. Nous pouvons retrouvons le point de départ d'une épidémie et son chemin de propagation. 
 
