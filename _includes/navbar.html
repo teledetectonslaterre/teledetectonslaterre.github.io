@@ -1,31 +1,55 @@
-<nav class="navbar navbar-expand navbar-custom">
-    <div class="container justify-content-center">
-        <ul class="navbar-nav">
+<nav class="navbar navbar-expand-sm navbar-custom">
+  <div class="container">
 
-            <li class="nav-item">
-                <a class="nav-link {% if page.slug == 'index' %}active{% endif %}" href="{{ '/' | relative_url }}">
-                    <i class="bi bi-house-fill"></i>
-                </a>
+    <!-- Toggler mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mx-auto">
+
+        <!-- Accueil -->
+        <li class="nav-item">
+          <a class="nav-link {% if page.slug == 'index' %}active{% endif %}" href="{{ '/' | relative_url }}">
+            <i class="bi bi-house-fill"></i>
+          </a>
+        </li>
+
+        <!-- Outils et méthodes dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link {% if page.slug == 'outils' or page.slug contains 'outils-' %}active{% endif %}"
+             href="{{ '/outils/' | relative_url }}" id="navbarOutils" role="button">
+            Outils et méthodes <i class="bi bi-caret-down-fill"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item {% if page.slug == 'outils-capteurs' %}active{% endif %}"
+                 href="{{ '/outils-capteurs/' | relative_url }}">Capteurs</a>
             </li>
-
-            <li class="nav-item">
-                <a class="nav-link {% if page.slug == 'outils' %}active{% endif %}" href="{{ '/outils' | relative_url }}">
-                    Outils et méthodes
-                </a>
+            <li>
+              <a class="dropdown-item {% if page.slug == 'outils-vecteurs' %}active{% endif %}"
+                 href="{{ '/outils-vecteurs/' | relative_url }}">Vecteurs</a>
             </li>
+          </ul>
+        </li>
 
-            <li class="nav-item">
-                <a class="nav-link {% if page.slug == 'applications' %}active{% endif %}" href="{{ '/applications' | relative_url }}">
-                    Applications
-                </a>
-            </li>
+        <!-- Applications -->
+        <li class="nav-item">
+          <a class="nav-link {% if page.slug == 'applications' %}active{% endif %}" href="{{ '/applications/' | relative_url }}">
+            Applications
+          </a>
+        </li>
 
-            <li class="nav-item">
-                <a class="nav-link {% if page.slug == 'actu' %}active{% endif %}" href="{{ '/actu' | relative_url }}">
-                    Actualités
-                </a>
-            </li>
+        <!-- Actualités -->
+        <li class="nav-item">
+          <a class="nav-link {% if page.slug == 'actu' %}active{% endif %}" href="{{ '/actu/' | relative_url }}">
+            Actualités
+          </a>
+        </li>
 
-        </ul>
+      </ul>
     </div>
+  </div>
 </nav>
