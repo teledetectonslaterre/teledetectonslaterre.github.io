@@ -14,6 +14,15 @@ body {
     font-family: "Segoe UI", Roboto, sans-serif;
 }
 
+.container-content {
+    background-color: white;   /* Fond blanc */
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
 /* Bande de titre */
 .header-banner {
     background: linear-gradient(to right, var(--blue-pastel), var(--blue-dark));
@@ -91,7 +100,6 @@ body {
     color: white !important;
     border-radius: 6px;
 }
-
 
 
 /* ================================
