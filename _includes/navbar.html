@@ -18,9 +18,12 @@
         </li>
 
         <!-- Outils et méthodes dropdown -->
+        <!--
         <li class="nav-item dropdown">
           <a class="nav-link {% if page.slug == 'outils' or page.slug contains 'outils-' %}active{% endif %}"
-             href="{{ '/outils/' | relative_url }}" id="navbarOutils" role="button">
+             href="{{ '/outils/' | relative_url }}" 
+             id="navbarOutils" 
+             role="button">
             Outils et méthodes <i class="bi bi-caret-down-fill"></i>
           </a>
           <ul class="dropdown-menu">
@@ -34,6 +37,26 @@
             </li>
           </ul>
         </li>
+      -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle {% if page.slug == 'outils' or page.slug contains 'outils-' %}active{% endif %}"
+           href="{{ '/outils/' | relative_url }}" 
+           id="navbarOutils" 
+           role="button" 
+           data-bs-toggle="dropdown" 
+           aria-expanded="false">
+          Outils et méthodes
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarOutils">
+          <li><a class="dropdown-item {% if page.slug == 'outils-methodes' %}active{% endif %}"
+                 href="{{ '/outils-methodes/' | relative_url }}">Outils et méthodes</a></li>
+          <li><a class="dropdown-item {% if page.slug == 'outils-capteurs' %}active{% endif %}"
+                 href="{{ '/outils-capteurs/' | relative_url }}">Capteurs</a></li>
+          <li><a class="dropdown-item {% if page.slug == 'outils-vecteurs' %}active{% endif %}"
+                 href="{{ '/outils-vecteurs/' | relative_url }}">Vecteurs</a></li>
+        </ul>
+      </li>
+
 
         <!-- Applications -->
         <li class="nav-item">
