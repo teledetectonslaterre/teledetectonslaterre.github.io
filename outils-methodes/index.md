@@ -9,7 +9,7 @@ header: Outils et méthodes
 <strong><em>Comment télédétecter ?</em></strong>
 <br>
 <br>
-Il suffit d'ouvrir les yeux et de prêter attention à ce qui nous entoure. Si l'on veut voir un autre paysage et d'autres objets, on marche vers un autre endroit. Si l'on veut un point de vue différent, on monte sur une chaise... Les yeux offrent déjà des possibilités formidables, mais d'autres outils permettent aujourd'hui d'observer à de nouvelles échelles et des objets auquel l'oeil n'a pas accès !
+Il suffit d'ouvrir les yeux et de prêter attention à ce qui nous entoure. Si l'on veut voir un autre paysage et d'autres objets, on marche vers un autre endroit. Si l'on veut un point de vue différent, on monte sur une chaise... Les yeux offrent déjà des possibilités formidables, mais d'autres outils permettent aujourd'hui d'observer à de nouvelles échelles et des objets auxquels l'oeil n'a pas accès !
 
 </div>
 
