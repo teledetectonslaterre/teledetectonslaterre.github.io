@@ -82,17 +82,6 @@
         L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
             attribution: "&copy; OpenStreetMap contributors"
         }).addTo(map);
-
-        L.Routing.control({
-            waypoints: [
-                L.latLng(48.8566, 2.3522),
-                L.latLng(45.7640, 4.8357)
-            ],
-            routeWhileDragging: true,
-            geocoder: L.Control.Geocoder ? L.Control.Geocoder.nominatim() : null,
-            show: true,
-            collapsible: true
-        }).addTo(map);
     });
 </script>
 
