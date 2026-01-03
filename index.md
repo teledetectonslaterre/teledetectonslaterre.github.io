@@ -42,10 +42,15 @@ Au XXIème siècle, la cartographie passe par un ordinateur. C'est moins glamour
 
 <h2>Observer la Terre</h2>
 
-<figure class="image-figure">
-<img src="assets/figures/accueil/pleiades_arcachon.jpg">
-<figcaption>Bassin d'Arcachon – Pléiades</figcaption>
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ 'assets/figures/accueil/landsat_solway_firth_landsat_8_2019.jpg' | relative_url }}"
+        alt="Image Landsat d'une île anglaise"
+        class="img-fluid">
+    <figcaption>Solway Firth (Royaume-Uni) - Landsat, 2019</figcaption>
 </figure>
+</center>
 
 Voler de nuit ! Saint-Exupéry admirait la Terre depuis son cockpit. Si ce paysage a fait naître en lui des romans, il a aussi intéressé des militaires, des scientifiques, des industriels et bien sûr des cartographes ! Qu'est-ce qu'une carte sinon une prise de vue aérienne ? Les avions, puis les satellites et les drônes prennent des photos de la planète bleue sous toutes ses coutures, dans tous ces états. De nuit comme de jour, capturant ses couleurs, ses reflets et ses reliefs, des centaines de milliers de capteurs lui tournent autour. D'abord utilisée pour repérer des positions ennemies à bombarder, la photographie aérienne sert aujourd'hui à préparer un chantier urbain, cartographier des fouilles archéologiques, mesurer les effets du changement climatique... et toujours à s'émerveiller des curiosités produites par la Terre. 
 
