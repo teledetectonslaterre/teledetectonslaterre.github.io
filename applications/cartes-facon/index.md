@@ -160,14 +160,16 @@ Une fois que chaque image est exportée sous un format raster, on les ajoute aux
 
 Pour illustrer cette page web, une image animée (.gif) remplace le PowerPoint pour visualiser la série temporelle des cartes.<br><br>
 
-<h2>7. Evaluer la qualité de la carte</h2><br>
-<strong><u>La carte présentée ici comprend des approximations :</u></strong><br><br>
+<h2>7. Evaluer la qualité de la carte</h2>
+<strong>La carte présentée ici comprend des approximations :</strong><br>
 
 - <strong>Spatiales :</strong> Le géoréférencement a été fait à partir d'images de mauvaises qualité donc il est peu précis.<br>
 
-- <strong>Historiques :</strong> La carte s'adressant à des collégiens et non des universitaires, des alliances et des annexions ont été simplifiées.<br><br>
+- <strong>Historiques :</strong> La carte s'adressant à des collégiens et non des universitaires, des alliances et des annexions ont été simplifiées.<br>
 
-<span class="arrow-inline">→</span>La carte est adaptée pour l'usage prévu : un support de cours d'histoire-géographie au collège. Elle n'est cependant pas adaptée pour d'autres usages tels que de la recherche historique ou une source pour la production d'autres cartes.
+<span class="arrow-inline">→</span>La carte est adaptée pour l'usage prévu : un support de cours d'histoire-géographie au collège. Elle n'est cependant pas adaptée pour d'autres usages tels que de la recherche historique ou une source pour la production d'autres cartes.<br><br>
 
+<h2>8. Rédiger les métadonnées</h2>
+Les métadonnées sont toutes les informations qui entourent la carte et qui sont essentielles pour celui qui la lit. Dans les métadonnées doivent être renseignés, entre autres, l'auteur et la date de réalisation de la carte. Il est aussi important de renseigner les sources utilisées et le contexte de réalisation. Les métadonnées permettent de comprendre comment lire la carte et de savoir ce qu'elle contient ou ne contient pas, comment elle peut être utilisée ou pas.<br><br>
 
 </div>
