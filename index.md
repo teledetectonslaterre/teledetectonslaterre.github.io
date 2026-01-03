@@ -17,10 +17,15 @@ Il faut avouer que ce ne sont pas des questions que l'on se pose tous les jours.
 
 <h2>Représenter la Terre</h2>
 
-<figure class="image-figure">
-<img src="assets/figures/accueil/cassini.jpeg" alt="Carte Cassini">
-<figcaption>Carte Cassini (1756-1815)</figcaption>
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ 'assets/figures/accueil/carte_assini_1744.jpg' | relative_url }}"
+        alt="Carte Cassini"
+        class="img-fluid">
+    <figcaption>Carte Cassini- 1744<br>Source: Wikimedia Commons</figcaption>
 </figure>
+</center>
 
 Il était beau le temps des Alexandre le Grand, des Magellan, des Amundsen ! Ces explorateurs qui partaient avec un matériel dérisoire pour cartographier des contrées inconnues. Les techniques ont évolué mais la volonté de comprendre la terre sur laquelle nous vivons reste la même. Que ce soit pour asseoir l'autorité d'un Etat, ouvrir de nouvelles routes commerciales, vérifier la propriété d'un terrain ou même retrouver un arrêt de bus, les cartes sont indispensables.<br><br>
 

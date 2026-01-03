@@ -110,16 +110,6 @@ rel="noopener noreferrer">
 David Rumsey</a> a servi de référence pour l'annexion de la Carélie, en Finlande.
 <br>
 
-<center>
-<figure class="image-figure text-center">
-    <img 
-        src="{{ '/assets/figures/applications/cartes-facon/europe_1943.jpg' | relative_url }}"
-        alt="Invasions en Europe entre 1939 et 1943"
-        class="img-fluid">
-    <figcaption>Invasions en Europe entre 1939 et 1943; Mathews, Northrup & Co. 1943</figcaption>
-</figure>
-</center>
-
 <h2>2. Géoréférencer les cartes historiques</h2>
 Les cartes historiques sont généralement accessibles sous la forme d'images, sans être associées à des coordonnées géographiques. Pour les utiliser, il faut donc les placer dans l'espace de la carte. Cette étape s'appelle le géoréférencement. On repère des points remarquables (frontières, villes, aspérités sur le littoral...) sur le raster et leur homologue sur la carte. Le SIG fait automatiquement les transformations géométriques nécéssaires pour recaler l'image sur la carte.
 
