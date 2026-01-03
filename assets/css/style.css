@@ -164,6 +164,7 @@ footer {
 }
 
 /* ---------- LIGHTBOX ---------- */
+
 #lightbox {
     position: fixed;
     inset: 0;
@@ -194,6 +195,39 @@ footer {
     color: #ddd;
     font-style: italic;
 }
+
+/* ---------- Hover overlay avec loupe Bootstrap ---------- */
+figure.image-figure {
+    position: relative;
+    display: inline-block;
+    cursor: zoom-in;
+    overflow: hidden;
+}
+
+/* Création de l'icône loupe via pseudo-élément */
+figure.image-figure::after {
+    content: "\f62c"; /* code de l'icône bi-zoom-in */
+    font-family: "bootstrap-icons"; /* obligatoire pour les icônes */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: white;
+    opacity: 0;
+    pointer-events: none; /* laisse passer le clic sur l'image */
+    transition: opacity 0.2s ease;
+}
+
+/* Affichage de la loupe au survol */
+figure.image-figure:hover::after {
+    opacity: 1;
+}
+
+figure.image-figure:hover img {
+    filter: brightness(70%);
+}
+
 
 /* ================================
    Mise en page à deux colonnes
