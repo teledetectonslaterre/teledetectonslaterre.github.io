@@ -18,12 +18,44 @@ panchromatique
 <span class="definition" tabindex="0" data-def="Capteurs qui reçoivent une énergie qu'ils n'ont pas eux-même émis.">
 «passifs».
 </span>
+
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ '/assets/figures/outils/outils-capteurs/spectre_electromagnetique.png' | relative_url }}"
+        alt="Spectre électromagnétique"
+        class="img-fluid">
+    <figcaption>Spectre électromagnétique<br>Source : Wikimedia Commons</figcaption>
+</figure>
+</center>
+
 </section>
+
+
 
 <section class="column">
 <h2>Les capteurs radar</h2>
 
 Contrairement aux capteurs optiques, les capteurs radar sont actifs, c'est-à-dire qu'ils émettent eux-même un signal et utilise le retour du signal émis. Le radar capte les signaux dont les longeurs d'onde sont comprises entre 1mm et 1m. Les radars envoeient un rayonnement et mesurent l'intensité du rayonnement réfléchi. L'avantage du radar est qu'il n'est pas gêné par les nuages : les micro-ondes traversent la couverture nuageuse.
+
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ '/assets/figures/outils/outils-capteurs/capteur_passif.png' | relative_url }}"
+        alt="Spectre électromagnétique"
+        class="img-fluid">
+    <figcaption>Capteur passif</figcaption>
+</figure>
+</center><br>
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ '/assets/figures/outils/outils-capteurs/capteur_actif.png' | relative_url }}"
+        alt="Spectre électromagnétique"
+        class="img-fluid">
+    <figcaption>Capteur actif</figcaption>
+</figure>
+</center>
 
 </section>
 </div>
