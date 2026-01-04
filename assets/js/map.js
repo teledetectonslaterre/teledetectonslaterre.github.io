@@ -1,7 +1,7 @@
 // Initialisation de la carte
 const nazcaMap = L.map("nazca_map", {
   center: [-14.692514, -75.148889], // Nazca
-  zoom: 11,
+  zoom: 12,
   maxZoom: 17,
   fullscreenControl: true,        // active le bouton
   fullscreenControlOptions: {
@@ -9,6 +9,8 @@ const nazcaMap = L.map("nazca_map", {
   }
 });
 
+const initialView = nazcaMap.getCenter();
+const initialZoom = nazcaMap.getZoom();
 
 // OpenStreetMap
 const esriImagery = L.tileLayer(
@@ -25,6 +27,36 @@ const osm = L.tileLayer(
   }
 ).addTo(nazcaMap);
 
+// Création d'un contrôle personnalisé
+const resetControl = L.Control.extend({
+  options: {
+    position: 'topright' // tu peux changer : 'topleft', 'bottomright', 'bottomleft'
+  },
+  onAdd: function(map) {
+    const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
+
+    container.style.backgroundColor = 'white';
+    container.style.padding = '5px';
+    container.style.cursor = 'pointer';
+    container.style.fontSize = '14px';
+    container.style.fontWeight = 'bold';
+    container.style.textAlign = 'center';
+    container.innerHTML = 'Recentrer';
+
+    // éviter que le clic se propage à la carte
+    L.DomEvent.disableClickPropagation(container);
+
+    // action au clic
+    container.onclick = function() {
+      map.setView(initialView, initialZoom, { animate: true });
+    }
+
+    return container;
+  }
+});
+
+// Ajout du contrôle personnalisé à la carte
+nazcaMap.addControl(new resetControl());
 
 // Groupe pour la couche GeoJSON
 const nazcaLayer = L.geoJSON(null, {
