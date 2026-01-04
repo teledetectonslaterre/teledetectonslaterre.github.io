@@ -163,6 +163,33 @@ footer {
     font-style: italic;
 }
 
+.image-pair {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.image-pair-images {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap; /* mobile */
+}
+
+.image-pair-images img {
+    max-width: 48%;
+    width: 100%;
+    height: auto;
+    cursor: zoom-in; /* cohérent avec ton lightbox */
+}
+
+.image-pair figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+
 /* ---------- LIGHTBOX ---------- */
 
 #lightbox {

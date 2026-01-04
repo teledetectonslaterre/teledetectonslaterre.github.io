@@ -65,4 +65,24 @@ Contrairement aux capteurs optiques, les capteurs radar sont actifs, c'est-à-di
 <h2>Les capteurs LiDAR</h2>
 Comme le radar, le LiDAR (Light Detection and Ranging) est un capteur actif qui émet son propre rayonnement. Le LiDAR envoit une impulsion laser et mesure différents paramètres du signal renvoyé : le nombre d'«échos», l'intensité du signal et surtout le temps entre l'émission du signal et son retour. Cette durée permet de déterminer la distance à laquelle se trouve l'objet réfléchissant. Le LiDAR est donc un excellent outil pour mesurer des altitudes.
 
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ 'assets/figures/outils/outils-capteurs/lidar.png' | relative_url }}"
+        alt="Schéma de LiDAR"
+        class="img-fluid">
+    <figcaption>Principe de fonctionnement du LiDAR</figcaption>
+</figure>
+</center>
+
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ 'assets/figures/outils/outils-capteurs/distance_lidar.png' | relative_url }}"
+        alt="Schéma de calcul de hauteur avec le LiDAR"
+        class="img-fluid">
+    <figcaption>Calcul d'une hauteur au LiDAR</figcaption>
+</figure>
+</center>
+
 </div>
