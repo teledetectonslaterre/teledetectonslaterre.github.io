@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hummingbird",
+        "local_name": "Colibrí",
+        "type": "Animal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.148889, -14.692514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mushroom",
+        "local_name": "Seta",
+        "type": "Plant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.135381, -14.697919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spiral",
+        "local_name": "Espiral",
+        "type": "Geometric"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.122697, -14.688189]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lizard",
+        "local_name": "Lagarto",
+        "type": "Animal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.113797, -14.692908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hands",
+        "local_name": "Las Manos",
+        "type": "Anthropomorphic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.114033, -14.694544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tree",
+        "local_name": "El Árbol",
+        "type": "Plant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.114436, -14.693864]
+      }
+    }
+  ]
+}

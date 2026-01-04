@@ -290,6 +290,11 @@ figure.image-figure:hover img {
     border-radius: 8px;
 }
 
+#nazca_map {
+  width: 100%;
+  height: 500px;
+}
+
 
 .arrow-inline {
     margin: 0 0.25rem;

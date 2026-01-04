@@ -17,11 +17,32 @@ header: Applications
 <section class="column">
 <center><h2>Agriculture</h2></center>
 La télédétections donne aux agriculteurs et aux chercheurs un point de vue inédit sur les cultures, pour suivre au mieux leurs besoins et leur évolution. Du manque d'eau à l'apparition et aux conséquences des maladies, les images satellites et aériennes permettent de détecter toutes sortes d'évènements.
+
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ 'assets/figures/applications/classif_rgp.png' | relative_url }}"
+        alt="Cartes de parcelles agricoles sur une image satellite"
+        class="img-fluid">
+    <figcaption>Classification de parcelles agricoles en Isère en 2019</figcaption>
+</figure>
+</center>
 </section>
 
 <section class="column">
 <center><h2>Archéologie</h2></center>
-La première étape lors d'une fouille archéologique est de représenter l'espace dans lequel a lieu la fouille et de prendre des photos pour savoir exactement le lieux de découverte de chaque objet. La télédétection permet de faire les deux et est devenu un outil indispensables pours les archéologues.
+La première étape lors d'une fouille archéologique est de représenter l'espace dans lequel a lieu la fouille et de prendre des photos pour savoir exactement le lieux de découverte de chaque objet. La télédétection permet de faire les deux et est devenu un outil indispensables pours les archéologues.<br><br>
+<a href="{{ '/applications/archeologie' | relative_url }}" class="link-div">plus...</a>
+<center>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ 'assets/figures/applications/nazca.jpg' | relative_url }}"
+        alt="Géoglyphes de Nazca"
+        class="img-fluid">
+    <figcaption>Géoglyphes de Nazca (Pérou); <br>Source: Wikimedia Commons</figcaption>
+</figure>
+</center>
+
 </section>
 
 </div>
