@@ -4,73 +4,109 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hummingbird",
-        "local_name": "Colibrí",
-        "type": "Animal"
+        "nom": "Colibri",
+        "dimensions": "≈66 m d'envergure",
+        "notes": "Figure d’oiseau emblématique, facile à repérer depuis l’air."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.148889, -14.692514]
+        "coordinates": [-75.1489, -14.6922]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Mushroom",
-        "local_name": "Seta",
-        "type": "Plant"
+        "nom": "Grand oiseau",
+        "dimensions": "≈305 m de long",
+        "notes": "Plus grand géoglyphe oiseau (le plus grand de tous)."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.135381, -14.697919]
+        "coordinates": [-75.1350, -14.6900]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Spiral",
-        "local_name": "Espiral",
-        "type": "Geometric"
+        "nom": "Condor",
+        "dimensions": "≈135 m",
+        "notes": "Grand rapace."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.122697, -14.688189]
+        "coordinates": [-75.1384, -14.6333]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Lizard",
-        "local_name": "Lagarto",
-        "type": "Animal"
+        "nom": "Lézard",
+        "dimensions": "≈186–188 m",
+        "notes": "Figure souvent divisée par la Panamericana Sud."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.113797, -14.692908]
+        "coordinates": [-75.1155, -14.6893]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Hands",
-        "local_name": "Las Manos",
-        "type": "Anthropomorphic"
+        "nom": "Singe",
+        "dimensions": "≈135 m",
+        "notes": "Primate stylisé."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.114033, -14.694544]
+        "coordinates": [-75.1385, -14.7069]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Tree",
-        "local_name": "El Árbol",
-        "type": "Plant"
+        "nom": "Pélican",
+        "dimensions": "≈138 m",
+        "notes": "Oiseau marin très distinctif."
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.114436, -14.693864]
+        "coordinates": [-75.1077, -14.6897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Araignée",
+        "dimensions": "≈46–47 m",
+        "notes": "Représentation très connue et visible."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1224, -14.6941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Astronaute",
+        "dimensions": "≈40 m",
+        "notes": "Figure anthropomorphe célèbre."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.0797, -14.7452]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Grand condor",
+        "dimensions": "—",
+        "notes": "Coordonnées globales approximatives du vaste ensemble Nazca."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1333, -14.7167]
       }
     }
   ]

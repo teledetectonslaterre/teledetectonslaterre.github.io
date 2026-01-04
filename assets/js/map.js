@@ -37,11 +37,31 @@ const nazcaLayer = L.geoJSON(null, {
       fillOpacity: 0.8
     }),
   onEachFeature: (feature, layer) => {
-    if (feature.properties && feature.properties.name) {
-      layer.bindPopup(feature.properties.name);
+    if (feature.properties) {
+      const name = feature.properties.nom || "Nom inconnu";
+      const dimensions = feature.properties.dimensions || "Dimensions inconnues";
+      const notes = feature.properties.notes || "Notes indisponibles";
+
+      // Contenu HTML du popup
+      const popupContent = `
+        <div style="font-size: 15px;">
+          <center><h5>${name}</h5></center>
+          <b>Dimensions:</b> ${dimensions}<br>
+          ${notes}
+          </div>`;
+      
+      layer.bindPopup(popupContent);
+      
+      // Zoom sur le point lorsqu'on clique dessus
+      layer.on('click', function(e) {
+        // zoom à 17 et centre sur le point
+        layer._map.setView(e.latlng, 17);
+      });
+
     }
   }
 });
+
 
 // Chargement du GeoJSON
 fetch(geojsonUrl)
