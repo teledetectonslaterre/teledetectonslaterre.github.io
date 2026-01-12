@@ -9,6 +9,36 @@ const nazcaMap = L.map("nazca_map", {
   }
 });
 
+nazcaMap.on('popupopen', function (e) {
+  const popup = e.popup;
+  const popupEl = popup.getElement();
+  if (!popupEl) return;
+
+  const adjustPopupPosition = () => {
+    const popupHeight = popupEl.offsetHeight;
+    const mapHeight = nazcaMap.getSize().y;
+
+    const px = nazcaMap.project(popup.getLatLng());
+
+    if (popupHeight > mapHeight * 0.6) {
+      px.y -= popupHeight / 2;
+      nazcaMap.panTo(nazcaMap.unproject(px), { animate: true });
+    }
+  };
+
+  // 1️⃣ Ajustement immédiat (sans image)
+  adjustPopupPosition();
+
+  // 2️⃣ Ajustement APRÈS chargement des images
+  const images = popupEl.querySelectorAll("img");
+  images.forEach(img => {
+    if (!img.complete) {
+      img.onload = adjustPopupPosition;
+    }
+  });
+});
+
+
 const initialView = nazcaMap.getCenter();
 const initialZoom = nazcaMap.getZoom();
 
@@ -70,16 +100,40 @@ const nazcaLayer = L.geoJSON(null, {
     }),
   onEachFeature: (feature, layer) => {
     if (feature.properties) {
-      const name = feature.properties.nom || "Nom inconnu";
-      const dimensions = feature.properties.dimensions || "Dimensions inconnues";
-      const notes = feature.properties.notes || "Notes indisponibles";
+
+      const props = feature.properties;
+
+      const name = props.nom || "Nom inconnu";
+      const dimensions = props.dimensions || "Dimensions inconnues";
+
+      // Image + source (si disponibles)
+      let imageHtml = "";
+      if (props.image) {
+      imageHtml = `
+        <figure class="image-figure text-center">
+          <a 
+            href="${props.image}"
+            data-lightbox="nazca"
+            data-title="${name}${props.Source ? ' — Source : ' + props.Source : ''}"
+          >
+            <img 
+              src="${props.image}" 
+              alt="${name}"
+              class="img-fluid"
+              style="cursor: zoom-in;"
+            >
+          </a>
+          ${props.Source ? `<figcaption style="font-size: 11px; color: #555;">Source : ${props.Source}</figcaption>` : ""}
+        </figure>
+      `;
+    }
 
       // Contenu HTML du popup
       const popupContent = `
         <div style="font-size: 15px;">
           <center><h5>${name}</h5></center>
+          ${imageHtml}
           <b>Dimensions:</b> ${dimensions}<br>
-          ${notes}
           </div>`;
       
       layer.bindPopup(popupContent);
@@ -93,6 +147,7 @@ const nazcaLayer = L.geoJSON(null, {
     }
   }
 });
+
 
 
 // Chargement du GeoJSON

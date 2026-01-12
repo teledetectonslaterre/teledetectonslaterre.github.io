@@ -25,5 +25,5 @@ Ils permettent d'acquérir des images sur une zone de taille moyenne, comme une 
 
 Ils permettent de survoler des zones beaucoup plus petites et de façon plus adaptables à des études de cas très spécifiques.
 
-</div>
+</section>
 

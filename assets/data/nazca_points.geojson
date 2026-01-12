@@ -1,113 +1,18 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Colibri",
-        "dimensions": "≈66 m d'envergure",
-        "notes": "Figure d’oiseau emblématique, facile à repérer depuis l’air."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1489, -14.6922]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Grand oiseau",
-        "dimensions": "≈305 m de long",
-        "notes": "Plus grand géoglyphe oiseau (le plus grand de tous)."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1350, -14.6900]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Condor",
-        "dimensions": "≈135 m",
-        "notes": "Grand rapace."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1384, -14.6333]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Lézard",
-        "dimensions": "≈186–188 m",
-        "notes": "Figure souvent divisée par la Panamericana Sud."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1155, -14.6893]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Singe",
-        "dimensions": "≈135 m",
-        "notes": "Primate stylisé."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1385, -14.7069]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Pélican",
-        "dimensions": "≈138 m",
-        "notes": "Oiseau marin très distinctif."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1077, -14.6897]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Araignée",
-        "dimensions": "≈46–47 m",
-        "notes": "Représentation très connue et visible."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1224, -14.6941]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Astronaute",
-        "dimensions": "≈40 m",
-        "notes": "Figure anthropomorphe célèbre."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.0797, -14.7452]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "nom": "Grand condor",
-        "dimensions": "—",
-        "notes": "Coordonnées globales approximatives du vaste ensemble Nazca."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.1333, -14.7167]
-      }
-    }
-  ]
+"type": "FeatureCollection",
+"name": "nazca_points",
+"features": [
+{ "type": "Feature", "properties": { "nom": "Le Colibri", "dimensions": "≈66 m d'envergure", "name": "The hummingbird", "image": "/assets/figures/applications/archeologie/nazca/humming_bird.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.1489, -14.6922 ] } },
+{ "type": "Feature", "properties": { "nom": "Le Grand oiseau", "dimensions": "≈305 m de long", "name": "The large bird", "image": "/assets/figures/applications/archeologie/nazca/large_bird.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.135, -14.69 ] } },
+{ "type": "Feature", "properties": { "nom": "Le Lézard", "dimensions": "≈186–188 m", "name": "The lezard", "image": "/assets/figures/applications/archeologie/nazca/lezard.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.1155, -14.6893 ] } },
+{ "type": "Feature", "properties": { "nom": "Le Singe", "dimensions": "≈135 m", "name": "The monkey", "image": "/assets/figures/applications/archeologie/nazca/monkey.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.1385, -14.7069 ] } },
+{ "type": "Feature", "properties": { "nom": "Le Pélican", "dimensions": "≈138 m", "name": "The pelican", "image": "/assets/figures/applications/archeologie/nazca/pelican.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.1077, -14.6897 ] } },
+{ "type": "Feature", "properties": { "nom": "L'Araignée", "dimensions": "≈46–47 m", "name": "The spider", "image": "/assets/figures/applications/archeologie/nazca/spider.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.1224, -14.6941 ] } },
+{ "type": "Feature", "properties": { "nom": "L'Astronaute", "dimensions": "≈40 m", "name": "The astronaut", "image": "/assets/figures/applications/archeologie/nazca/astronaut.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.0797, -14.7452 ] } },
+{ "type": "Feature", "properties": { "nom": "La Spirale", "dimensions": "inconnues", "name": "The spiral", "image": "/assets/figures/applications/archeologie/nazca/spiral.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.122790590102824, -14.688283525894727 ] } },
+{ "type": "Feature", "properties": { "nom": "L'algue", "dimensions": "inconnues", "name": "The seaweed", "image": null, "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.122686714637041, -14.690212641687779 ] } },
+{ "type": "Feature", "properties": { "nom": "La Fleur", "dimensions": "≈200-370m de long", "name": "The flower", "image": "/assets/figures/applications/archeologie/nazca/flower.jpg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.11820138064563, -14.693827068297264 ] } },
+{ "type": "Feature", "properties": { "nom": "Le Condor", "dimensions": "134 m de long", "name": "The Condor", "image": "/assets/figures/applications/archeologie/nazca/condor.jpeg", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.126251729243577, -14.69742561121892 ] } },
+{ "type": "Feature", "properties": { "nom": "Le Coquillage spirale", "dimensions": "inconnues", "name": "The shells", "Source": "Wikimedia Commons" }, "geometry": { "type": "Point", "coordinates": [ -75.100391420354086, -14.680330626730516 ] } }
+]
 }
