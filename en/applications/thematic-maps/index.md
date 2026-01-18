@@ -3,6 +3,7 @@ layout: default
 title: Applications - Thematic maps
 slug: applications-thematic-maps
 header: Applications - Thematic maps
+lang: en
 ---
 
 <div class="container-content">

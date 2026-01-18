@@ -3,6 +3,7 @@ layout: default
 title: Applications - Archéologie
 slug: applications-archeologie
 header: Applications - Archéologie
+lang: fr
 ---
 
 <div class="content-container-large">

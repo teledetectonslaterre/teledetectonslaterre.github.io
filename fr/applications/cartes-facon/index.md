@@ -3,6 +3,7 @@ layout: default
 title: Applications - Cartes à façon
 slug: applications-cartes-facon
 header: Applications - Cartes à façon
+lang: fr
 ---
 
 <div class="container-content">

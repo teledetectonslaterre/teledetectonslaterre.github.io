@@ -3,6 +3,7 @@ layout: default
 title: Applications
 slug: applications
 header: Applications
+lang: en
 ---
 
 <div class="container-content">

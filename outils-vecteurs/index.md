@@ -2,6 +2,7 @@
 layout: default
 title: Vecteurs
 slug: outils-vecteurs
+lang: fr
 ---
 
 <div class="container-content">

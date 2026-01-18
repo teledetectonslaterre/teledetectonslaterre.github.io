@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Outils et méthodes
-slug: outils
-header: Outils et méthodes
+title: Tools and methods
+slug: tools
+header: Tools and methods
+lang: en
 ---
 
 <div class="text-center my-4 container-content">

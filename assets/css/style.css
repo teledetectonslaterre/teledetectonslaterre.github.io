@@ -131,6 +131,27 @@ body {
     border-radius: 6px;
 }
 
+.lang-switch .nav-link {
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.lang-switch .nav-link:hover {
+  opacity: 1;
+}
+
+.lang-flag {
+  width: 22px;
+  height: auto;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.lang-flag:hover {
+  opacity: 1;
+}
+
 
 /* ================================
    Footer

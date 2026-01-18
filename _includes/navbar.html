@@ -52,6 +52,26 @@
         </li>-->
 
       </ul>
+
+      <!-- 🔽 LANGUAGE SWITCH (RIGHT) -->
+      <!--
+      <div class="d-flex align-items-center lang-switch ms-auto">
+        {% if page.lang == "fr" %}
+          <a href="#" onclick="switchLang('en')" class="nav-link px-2">EN</a>
+        {% else %}
+          <a href="#" onclick="switchLang('fr')" class="nav-link px-2">FR</a>
+        {% endif %}
+      </div>
+      -->
+      <div class="d-flex align-items-center lang-switch ms-auto">
+        {% if page.lang == "fr" %}
+          <a href="#" onclick="switchLang('en')" class="nav-link px-2" title="English">🇬🇧</a>
+        {% else %}
+          <a href="#" onclick="switchLang('fr')" class="nav-link px-2" title="Français">🇫🇷</a>
+        {% endif %}
+      </div>
+
+
     </div>
   </div>
 </nav>

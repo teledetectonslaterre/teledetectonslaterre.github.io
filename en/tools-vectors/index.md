@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Vecteurs
-slug: outils-vecteurs
+title: Vectors
+slug: tools-vectors
+lang: en
 ---
 
 <div class="container-content">

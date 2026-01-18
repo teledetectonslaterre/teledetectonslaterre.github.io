@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Capteurs
-slug: outils-capteurs
+title: Captors
+slug: tools-captors
+lang: en
 ---
 
 
