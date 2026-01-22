@@ -9,7 +9,7 @@ ref: applications-archeology
 
 <div class="content-container-large">
   <center>
-  <h3>Geoglyphes de Nazca</h3>
+  <h3>Nazca geoglyphs</h3>
   <em>
   Move around on the map and click on points to get more information...<br>
   You can also change the basemap with the button in the upper right hand corner: map or image

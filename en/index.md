@@ -17,7 +17,7 @@ One has to admit these are not questions one thinks about everyday. Nevertheless
 
 <section class="column">
 
-<h2>Representing the Earth</h2>
+<h2>Earth representation</h2>
 
 <center>
 <figure class="image-figure text-center">
@@ -29,20 +29,16 @@ One has to admit these are not questions one thinks about everyday. Nevertheless
 </figure>
 </center>
 
-Il était beau le temps des Alexandre le Grand, des Magellan, des Amundsen ! Ces explorateurs qui partaient avec un matériel dérisoire pour cartographier des contrées inconnues. Les techniques ont évolué mais la volonté de comprendre la terre sur laquelle nous vivons reste la même. Que ce soit pour asseoir l'autorité d'un Etat, ouvrir de nouvelles routes commerciales, vérifier la propriété d'un terrain ou même retrouver un arrêt de bus, les cartes sont indispensables.<br><br>
+How many of us dreamed of travelling like Alexander the Great, Magellan or Amundsen ! These explorers left with hardly any equipment to map unknown regions. Technology has evolved but the will to understand the earth on which we live is still the same. Maps are essential, whether it be to impose the authority of a nation, to open commercial routes, to check the ownership of land, or just to find a bus station.<br><br>
 
-Au XXIème siècle, la cartographie passe par un ordinateur. C'est moins glamour mais ça étend largement le champs des possibles. Alors que Magellan devait attendre le bon horaire et prendre plusieurs minutes pour estimer sa position avec une précision plus qu'approximative, nous pouvons maintenant connaître notre position en ville à moins de 5m à tout moment ! Nous pouvons suivre les mouvement des dauphins au cours de plusieurs années dans la Méditerranée. Nous pouvons retrouvons le point de départ d'une épidémie et son chemin de propagation.
+In the 21st Century, mapping is done on computers. It might seem less glamourous but it drastically increases options. While Magellan had to wait for the right time and take several minutes to determine very approximately his position, we can now know our position in any town with a 5m precision ! We can follow the trajectories of dolphins during several years accross the Mediterranean. We can can find an epidemic's outbreak and propagation trail.
 
-<center>
-<img src="assets/figures/accueil/geomatique.png"
-     alt="Étymologie géomatique"
-     class="img-fluid accueil-image">
-</center>
+
 </section>
 
 <section class="column">
 
-<h2>Observing Earth</h2>
+<h2>Earth observation</h2>
 
 <center>
 <figure class="image-figure text-center">
@@ -54,13 +50,8 @@ Au XXIème siècle, la cartographie passe par un ordinateur. C'est moins glamour
 </figure>
 </center>
 
-Voler de nuit ! Saint-Exupéry admirait la Terre depuis son cockpit. Si ce paysage a fait naître en lui des romans, il a aussi intéressé des militaires, des scientifiques, des industriels et bien sûr des cartographes ! Qu'est-ce qu'une carte sinon une prise de vue aérienne ? Les avions, puis les satellites et les drônes prennent des photos de la planète bleue sous toutes ses coutures, dans tous ces états. De nuit comme de jour, capturant ses couleurs, ses reflets et ses reliefs, des centaines de milliers de capteurs lui tournent autour. D'abord utilisée pour repérer des positions ennemies à bombarder, la photographie aérienne sert aujourd'hui à préparer un chantier urbain, cartographier des fouilles archéologiques, mesurer les effets du changement climatique... et toujours à s'émerveiller des curiosités produites par la Terre. 
+Flying by night! Saint-Exupéry marvelled at the Earth from his cockpit. This landscape has inspired authors as well as interested militaries, scientists, businessmen and of course cartographers! What is a map if not an aerial photograph? Airplanes, satellites, and drones take photos of the blue planet from every angle and in every state. Hundreds of thousands of sensors circle around it, day and night, capturing its colors, reflections, and contours. Initially used to locate enemy positions for bombing, aerial photography is now used to prepare urban construction sites, map archaeological excavations, measure the effects of climate change... and still marvel at the wonders produced by the Earth.
 
-<center>
-<img src="assets/figures/accueil/teledec_etymo.png"
-     alt="Étymologie télédétection"
-     class="img-fluid accueil-image">
-</center>
 
 </section>
 

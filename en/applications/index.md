@@ -35,7 +35,7 @@ Remote sensing gives farmers and scientists an original point of view on croplan
 <center><h2>Archeology</h2></center>
 The first step of any archeological dig is to make a map of the area in which the excavation will take place and to take pictures in order to know the specific location of any discovery. Remote sensing helps archeologists do both and has become an essential tool for them.
 <br><br>
-<a href="{{ '/applications/archeologie' | relative_url }}" class="link-div">plus...</a>
+<a href="{{ lang_prefix }}archeology/" class="link-div">more...</a>
 <center>
 <figure class="image-figure text-center">
     <img 
@@ -55,15 +55,15 @@ The first step of any archeological dig is to make a map of the area in which th
 <div class="two-columns">
 
 <section class="column">
-<center><h2>Protection de l'environnement</h2></center>
-Quand il s'agit de préserver l'environnement, la télédétection offre un avantage indéniable puisqu'elle permet d'observer sans toucher ! Les images satellites donnent évdemment un aperçu de régions reculées mais elles donnent aussi des informations que l'oeil humain ne serait pas capable de détecter. 
+<center><h2>Environmental protection</h2></center>
+When it comes to protecting the environment, remote sensing offers an undeniable advantage, as it allows observation without contact! Satellite images obviously provide a view of remote areas, but they also provide information that the human eye would not be able to detect. 
 
 
 </section>
 
 <section class="column">
-<center><h2>Journalisme</h2></center>
-La télédétection, notamment grâce aux images satellite, permet aux journalistes d'accésder à des lieux où ils ne peuvent pas aller en personne. Elle donne aussi une vue d'ensemble sur des espaces étendus. De plus, le développement des archives d'images de télédétection ouvre une porte sur l'évolution du territoire pendant plusieurs années.
+<center><h2>Journalism</h2></center>
+Remote sensing, particularly through satellite imagery, allows journalists to access places they cannot visit in person. It also provides an overview of large areas. In addition, the development of remote sensing image archives opens a window onto how the landscape has changed over several years.
 
 
 </section>
@@ -72,29 +72,29 @@ La télédétection, notamment grâce aux images satellite, permet aux journalis
 
 <div class="container-content">
 <center>
-<em><strong>Et d'autres applications en géomatique</strong></em>
+<em><strong>And other geomatics applications</strong></em>
 </center>
 </div>
 
 <div class="two-columns">
 
 <section class="column">
-<center><h2>Cartes à façon</h2></center>
+<center><h2>Thematic maps</h2></center>
 <center>
 <figure class="image-figure text-center">
     <img 
         src="{{ '/assets/figures/applications/Axe_1939_1941.gif' | relative_url }}"
-        alt="Expansion de l’Axe en Europe entre 1939 et 1941"
+        alt="Expansion of the Axis in Europe between 1939 and 1941"
         class="img-fluid">
-    <figcaption>Expansion de l’Axe en Europe entre 1939 et 1941</figcaption>
+    <figcaption>Expansion of the Axis in Europe between 1939 and 1941</figcaption>
 </figure>
 </center>
-Tout élève a déjà rencontré des cartes au cours de sa scolarité. Comment mieux réprésenter des évolutions militaires et politiques à grande échelle ?<br><br>
-<a href="{{ '/applications/cartes-facon' | relative_url }}" class="link-div">Découvrir...</a>
+Every student has encountered maps during their schooling. What better way to represent large-scale military and political developments?<br><br>
+<a href="{{ lang_prefix }}thematic-maps/" class="link-div">Discover...</a>
 </section>
 
 <section class="column">
-<center><h2>Applications cartographiques</h2></center>
+<center><h2>Mapping applications</h2></center>
 
 <div id="map"></div>
 

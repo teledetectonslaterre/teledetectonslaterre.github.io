@@ -34,7 +34,7 @@ La télédétections donne aux agriculteurs et aux chercheurs un point de vue in
 <section class="column">
 <center><h2>Archéologie</h2></center>
 La première étape lors d'une fouille archéologique est de représenter l'espace dans lequel a lieu la fouille et de prendre des photos pour savoir exactement le lieux de découverte de chaque objet. La télédétection permet de faire les deux et est devenu un outil indispensables pours les archéologues.<br><br>
-<a href="{{ '/applications/archeologie' | relative_url }}" class="link-div">plus...</a>
+<a href="{{ lang_prefix }}archeologie/{% endif %}" class="link-div">plus...</a>
 <center>
 <figure class="image-figure text-center">
     <img 
@@ -89,7 +89,7 @@ La télédétection, notamment grâce aux images satellite, permet aux journalis
 </figure>
 </center>
 Tout élève a déjà rencontré des cartes au cours de sa scolarité. Comment mieux réprésenter des évolutions militaires et politiques à grande échelle ?<br><br>
-<a href="{{ '/applications/cartes-facon' | relative_url }}" class="link-div">Découvrir...</a>
+<a href="{{ lang_prefix }}cartes-facon/{% endif %}" class="link-div">Découvrir...</a>
 </section>
 
 <section class="column">

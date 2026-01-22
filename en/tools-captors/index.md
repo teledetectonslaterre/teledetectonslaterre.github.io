@@ -10,24 +10,24 @@ ref: tools-captors
 <div class="two-columns">
 
 <section class="column">
-<h2>Les capteurs optiques</h2>
+<h2>Optical captors</h2>
 
-L'appareil photo comporte principalement deux composantes : une lentille et un capteur. La lentille permet de focaliser la lumière sur le capteur à l'arrière de l'appareil. Le capteur est un assemblage de petits carrés, des pixels. Chaque pixel mesure l'intensité lumineuse reçue. Il transforme cette intensité en énergie életrique. Le signal électrique est ensuite transformé en nombre pour reconstituer une image numérique. Ce fonctionnement donne une image en noir et blanc (
-<span class="definition" tabindex="0" data-def="Les pixels captent toute la lumière, peu importe la longueur d'onde.">
-panchromatique
+A camera mainly consists of two components: a lens and a sensor. The lens focuses light onto the sensor at the back of the camera. The sensor is an assembly of small squares called pixels. Each pixel measures the intensity of the light it receives. It converts this intensity into electrical energy. The electrical signal is then converted into numbers to reconstruct a digital image. This process produces a black and white (
+<span class="definition" tabindex="0" data-def="The pixels capture all light, regardless of wavelength.">
+panchromatic
 </span>
-). Pour obtenir des images en couleur, on utilise des filtres. Avec un filtre, un pixel ne capte que la lumière à une certaine longueur d'onde, donc à une couleur spécifique. En ajoutant plusieurs filtres différents et faisant la synthèse des signaux reçus, on obtient une image en couleur. Les capteurs optiques utilisent les ondes dont la longueur est principalement comprise entre 10nm et 1mm. Les capteurs optiques sont 
-<span class="definition" tabindex="0" data-def="Capteurs qui reçoivent une énergie qu'ils n'ont pas eux-même émis.">
-«passifs».
+) image. Filters are used to obtain color images. With a filter, a pixel only captures light at a certain wavelength, and therefore a specific color. By adding several different filters and synthesizing the signals received, a color image is obtained. Optical sensors use waves with a wavelength mainly between 10 nm and 1 mm. Optical sensors are 
+<span class="definition" tabindex="0" data-def="Sensors that receive energy that they did not emit themselves.">
+“passive.”
 </span>
 
 <center>
 <figure class="image-figure text-center">
     <img 
-        src="{{ '/assets/figures/outils/outils-capteurs/spectre_electromagnetique.png' | relative_url }}"
-        alt="Spectre électromagnétique"
+        src="{{ '/assets/figures/outils/outils-capteurs/spectre_electromagnetique_en.png' | relative_url }}"
+        alt="Electromagnetic spectrum"
         class="img-fluid">
-    <figcaption>Spectre électromagnétique<br>Source : Wikimedia Commons</figcaption>
+    <figcaption>Electromagnetic spectrum<br>Source : Wikimedia Commons</figcaption>
 </figure>
 </center>
 
@@ -36,26 +36,26 @@ panchromatique
 
 
 <section class="column">
-<h2>Les capteurs radar</h2>
+<h2>Radar captors</h2>
 
-Contrairement aux capteurs optiques, les capteurs radar sont actifs, c'est-à-dire qu'ils émettent eux-même un signal et utilise le retour du signal émis. Le radar capte les signaux dont les longeurs d'onde sont comprises entre 1mm et 1m. Les radars envoeient un rayonnement et mesurent l'intensité du rayonnement réfléchi. L'avantage du radar est qu'il n'est pas gêné par les nuages : les micro-ondes traversent la couverture nuageuse.
+Unlike optical sensors, radar sensors are active, meaning that they emit a signal themselves and use the return signal emitted. Radar detects signals with wavelengths between 1 mm and 1 m. Radars send out radiation and measure the intensity of the reflected radiation. The advantage of radar is that it is not affected by clouds: microwaves pass through cloud cover.
 
 <center>
 <figure class="image-figure text-center">
     <img 
-        src="{{ '/assets/figures/outils/outils-capteurs/capteur_passif.png' | relative_url }}"
+        src="{{ '/assets/figures/outils/outils-capteurs/capteur_passif_en.png' | relative_url }}"
         alt="Spectre électromagnétique"
         class="img-fluid">
-    <figcaption>Capteur passif</figcaption>
+    <figcaption>Passive captor</figcaption>
 </figure>
 </center><br>
 <center>
 <figure class="image-figure text-center">
     <img 
-        src="{{ '/assets/figures/outils/outils-capteurs/capteur_actif.png' | relative_url }}"
+        src="{{ '/assets/figures/outils/outils-capteurs/capteur_actif_en.png' | relative_url }}"
         alt="Spectre électromagnétique"
         class="img-fluid">
-    <figcaption>Capteur actif</figcaption>
+    <figcaption>Active captor</figcaption>
 </figure>
 </center>
 
@@ -64,26 +64,26 @@ Contrairement aux capteurs optiques, les capteurs radar sont actifs, c'est-à-di
 
 
 <div class="container-content">
-<h2>Les capteurs LiDAR</h2>
-Comme le radar, le LiDAR (Light Detection and Ranging) est un capteur actif qui émet son propre rayonnement. Le LiDAR envoit une impulsion laser et mesure différents paramètres du signal renvoyé : le nombre d'«échos», l'intensité du signal et surtout le temps entre l'émission du signal et son retour. Cette durée permet de déterminer la distance à laquelle se trouve l'objet réfléchissant. Le LiDAR est donc un excellent outil pour mesurer des altitudes.
+<h2>LiDAR captors</h2>
+Like radar, LiDAR (Light Detection and Ranging) is an active sensor that emits its own radiation. LiDAR sends out a laser pulse and measures various parameters of the returned signal: the number of “echoes,” the signal intensity, and, most importantly, the time between the signal being emitted and its return. This duration makes it possible to determine the distance to the reflecting object. LiDAR is therefore an excellent tool for measuring altitudes.
 
 <center>
 <figure class="image-figure text-center">
     <img 
-        src="{{ 'assets/figures/outils/outils-capteurs/lidar.png' | relative_url }}"
-        alt="Schéma de LiDAR"
+        src="{{ 'assets/figures/outils/outils-capteurs/lidar_en.png' | relative_url }}"
+        alt="LiDAR diagram"
         class="img-fluid">
-    <figcaption>Principe de fonctionnement du LiDAR</figcaption>
+    <figcaption>How LiDAR works</figcaption>
 </figure>
 </center>
 
 <center>
 <figure class="image-figure text-center">
     <img 
-        src="{{ 'assets/figures/outils/outils-capteurs/distance_lidar.png' | relative_url }}"
-        alt="Schéma de calcul de hauteur avec le LiDAR"
+        src="{{ 'assets/figures/outils/outils-capteurs/distance_lidar_en.png' | relative_url }}"
+        alt="Height calculation diagram using LiDAR"
         class="img-fluid">
-    <figcaption>Calcul d'une hauteur au LiDAR</figcaption>
+    <figcaption>Calculating height using LiDAR</figcaption>
 </figure>
 </center>
 

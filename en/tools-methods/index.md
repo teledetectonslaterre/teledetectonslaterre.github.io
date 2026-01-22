@@ -8,32 +8,32 @@ ref: tools-methods
 ---
 
 <div class="text-center my-4 container-content">
-<strong><em>Comment télédétecter ?</em></strong>
+<strong><em>How to sense remotely?</em></strong>
 <br>
 <br>
-Il suffit d'ouvrir les yeux et de prêter attention à ce qui nous entoure. Si l'on veut voir un autre paysage et d'autres objets, on marche vers un autre endroit. Si l'on veut un point de vue différent, on monte sur une chaise... Les yeux offrent déjà des possibilités formidables, mais d'autres outils permettent aujourd'hui d'observer à de nouvelles échelles et des objets auxquels l'oeil n'a pas accès !
+All you have to do is open your eyes and pay attention to your surroundings. If you want to see a different landscape and other objects, walk to another place. If you want a different perspective, climb onto a chair... Our eyes already offer tremendous possibilities, but today other tools allow us to observe on new scales and objects that are inaccessible to the eye!
 
 </div>
 
 <div class="two-columns">
 
 <section class="column">
-<h2>Capteurs</h2>
-Les capteurs sont les outils qui, comme les yeux, perçoivent les informations. Les capteurs les plus simples, comme les appareils photo, reprennent le principe de la vision humaine et captent la lumière. D'autres capteurs donnent accès à ce que les yeux humains ne peuvent pas percevoir. <br><br>
+<h2>Captors</h2>
+Sensors are tools that, like eyes, perceive information. The simplest sensors, such as cameras, are based on the principle of human vision and capture light. Other sensors provide access to what human eyes cannot perceive.<br><br>
 
-- Les capteurs optiques<br>
-- Les capteurs radar<br>
-- Les capteurs LiDAR<br>
+- Optical captors<br>
+- Radar captors<br>
+- LiDAR captors<br>
 </section>
 
 <section class="column">
 
-<h2>Vecteurs</h2>
-Les vecteurs sont les engins qui, comme les jambes d'un être humain, permettent de déplacer les capteurs. Dans le cas de la géomatique, ils servent surtout à prendre de la hauteur !<br><br>
+<h2>Vectors</h2>
+Vectors are devices that, like human legs, enable sensors to be moved. In geomatics, they are mainly used to gain height!<br><br>
 
-- Les satellites<br>
-- Les avions<br>
-- Les drones<br>
+- Satellites<br>
+- Airplanes<br>
+- Drones<br>
 </section>
 
 </div>
