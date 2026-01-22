@@ -4,6 +4,7 @@ title: Applications
 slug: applications
 header: Applications
 lang: en
+ref: applications
 ---
 
 <div class="container-content">

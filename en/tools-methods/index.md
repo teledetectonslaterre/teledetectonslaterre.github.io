@@ -4,6 +4,7 @@ title: Tools and methods
 slug: tools
 header: Tools and methods
 lang: en
+ref: tools-methods
 ---
 
 <div class="text-center my-4 container-content">

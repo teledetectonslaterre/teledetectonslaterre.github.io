@@ -1,76 +1,86 @@
+{% assign lang_prefix = '/' | append: page.lang %}
+
 <nav class="navbar navbar-expand-sm navbar-custom">
   <div class="container">
 
-    <!-- Toggler mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarContent">
+
       <ul class="navbar-nav mx-auto">
 
-        <!-- Accueil -->
         <li class="nav-item">
-          <a class="nav-link {% if page.slug == 'index' %}active{% endif %}" href="{{ '/' | relative_url }}">
+          <a class="nav-link {% if page.slug == 'index' %}active{% endif %}"
+             href="{{ lang_prefix | relative_url }}">
             <i class="bi bi-house-fill"></i>
           </a>
         </li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle {% if page.slug == 'outils' or page.slug contains 'outils-' %}active{% endif %}"
-           href="{{ '/outils/' | relative_url }}" 
-           id="navbarOutils" 
-           role="button" 
-           data-bs-toggle="dropdown" 
-           aria-expanded="false">
-          Outils et méthodes
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarOutils">
-          <li><a class="dropdown-item {% if page.slug == 'outils-methodes' %}active{% endif %}"
-                 href="{{ '/outils-methodes/' | relative_url }}">Outils et méthodes</a></li>
-          <li><a class="dropdown-item {% if page.slug == 'outils-capteurs' %}active{% endif %}"
-                 href="{{ '/outils-capteurs/' | relative_url }}">Capteurs</a></li>
-          <li><a class="dropdown-item {% if page.slug == 'outils-vecteurs' %}active{% endif %}"
-                 href="{{ '/outils-vecteurs/' | relative_url }}">Vecteurs</a></li>
-        </ul>
-      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="{% if page.lang == 'fr' %}{{ lang_prefix }}/outils-methodes/{% else %}{{ lang_prefix }}/tools-methods/{% endif %}"
+             data-bs-toggle="dropdown">
+            {% if page.lang == 'fr' %}
+              Outils et méthodes
+            {% else %}
+              Tools and methods
+            {% endif %}
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item"
+                 href="{% if page.lang == 'fr' %}{{ lang_prefix }}/outils-methodes/{% else %}{{ lang_prefix }}/tools-methods/{% endif %}">
+                {% if page.lang == 'fr' %}Outils et méthodes{% else %}Tools and methods{% endif %}
+              </a>
+            </li>
+          
+            <li>
+              <a class="dropdown-item"
+                 href="{% if page.lang == 'fr' %}{{ lang_prefix }}/outils-capteurs/{% else %}{{ lang_prefix }}/tools-captors/{% endif %}">
+                {% if page.lang == 'fr' %}Capteurs{% else %}Captors{% endif %}
+              </a>
+            </li>
+          
+            <li>
+              <a class="dropdown-item"
+                 href="{% if page.lang == 'fr' %}{{ lang_prefix }}/outils-vecteurs/{% else %}{{ lang_prefix }}/tools-vectors/{% endif %}">
+                {% if page.lang == 'fr' %}Vecteurs{% else %}Vectors{% endif %}
+              </a>
+            </li>
+          </ul>
+        </li>
 
 
-        <!-- Applications -->
         <li class="nav-item">
-          <a class="nav-link {% if page.slug == 'applications' %}active{% endif %}" href="{{ '/applications/' | relative_url }}">
+          <a class="nav-link"
+             href="{{ lang_prefix }}/applications/">
             Applications
           </a>
         </li>
 
-        <!-- Actualités 
-        <li class="nav-item">
-          <a class="nav-link {% if page.slug == 'actu' %}active{% endif %}" href="{{ '/actu/' | relative_url }}">
-            Actualités
-          </a>
-        </li>-->
-
       </ul>
 
-      <!-- 🔽 LANGUAGE SWITCH (RIGHT) -->
-      <!--
-      <div class="d-flex align-items-center lang-switch ms-auto">
-        {% if page.lang == "fr" %}
-          <a href="#" onclick="switchLang('en')" class="nav-link px-2">EN</a>
-        {% else %}
-          <a href="#" onclick="switchLang('fr')" class="nav-link px-2">FR</a>
-        {% endif %}
-      </div>
-      -->
-      <div class="d-flex align-items-center lang-switch ms-auto">
-        {% if page.lang == "fr" %}
-          <a href="#" onclick="switchLang('en')" class="nav-link px-2" title="English">🇬🇧</a>
-        {% else %}
-          <a href="#" onclick="switchLang('fr')" class="nav-link px-2" title="Français">🇫🇷</a>
-        {% endif %}
-      </div>
+      <!-- 🌍 SWITCH LANGUE -->
+      <div class="d-flex align-items-center ms-auto">
 
+        {% assign all_pages = site.pages | concat: site.documents %}
+        {% assign translations = all_pages | where: "ref", page.ref %}
+
+        {% for p in translations %}
+          {% if p.lang != page.lang %}
+            <a href="{{ p.url | relative_url }}"
+               class="nav-link px-2">
+              {{ p.lang | upcase }}
+            </a>
+          {% endif %}
+        {% endfor %}
+
+      </div>
 
     </div>
   </div>

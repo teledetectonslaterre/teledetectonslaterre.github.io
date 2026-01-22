@@ -34,19 +34,24 @@
 
 <script>
 function switchLang(targetLang) {
-  const path = window.location.pathname;
+  const base = "{{ site.baseurl }}";
+  let path = window.location.pathname.replace(base, '');
 
   if (path.startsWith('/fr/')) {
-    window.location.pathname = path.replace('/fr/', '/' + targetLang + '/');
+    path = path.replace('/fr/', '/' + targetLang + '/');
   } else if (path.startsWith('/en/')) {
-    window.location.pathname = path.replace('/en/', '/' + targetLang + '/');
+    path = path.replace('/en/', '/' + targetLang + '/');
   } else {
-    window.location.pathname = '/' + targetLang + '/';
+    path = '/' + targetLang + '/';
   }
 
   localStorage.setItem('preferredLang', targetLang);
+  window.location.href = base + path;
 }
 </script>
+
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

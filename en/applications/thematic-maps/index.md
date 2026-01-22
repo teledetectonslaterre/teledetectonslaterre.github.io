@@ -4,6 +4,7 @@ title: Applications - Thematic maps
 slug: applications-thematic-maps
 header: Applications - Thematic maps
 lang: en
+ref: applications-thematic-maps
 ---
 
 <div class="container-content">

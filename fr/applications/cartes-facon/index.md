@@ -4,6 +4,7 @@ title: Applications - Cartes à façon
 slug: applications-cartes-facon
 header: Applications - Cartes à façon
 lang: fr
+ref: applications-thematic-maps
 ---
 
 <div class="container-content">

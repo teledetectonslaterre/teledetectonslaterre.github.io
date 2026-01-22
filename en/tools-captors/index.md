@@ -3,6 +3,7 @@ layout: default
 title: Captors
 slug: tools-captors
 lang: en
+ref: tools-captors
 ---
 
 
