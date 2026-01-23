@@ -3,6 +3,7 @@ layout: default
 title: Accueil
 slug: index
 header: Accueil
+lang: fr
 ---
 
 <div class="text-center my-4 container-content">

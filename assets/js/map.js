@@ -117,7 +117,6 @@ const nazcaLayer = L.geoJSON(null, {
 
       const props = feature.properties;
 
-      //const name = props.nom || "Nom inconnu";
       let name;
       if (PAGE_LANG === "fr") {
         name = props.nom || "Nom inconnu";
@@ -125,9 +124,6 @@ const nazcaLayer = L.geoJSON(null, {
         name = props.name || "Unknown name";
       }
 
-
-      //const dimensions = props.dimensions || "Dimensions inconnues";
-      //const dimensions = props.dimensions || LBL.unknown_dimensions;
       let dimensions;
       if (PAGE_LANG === "fr") {
         dimensions = props.dimensions_fr || "Dimensions inconnues";
@@ -166,15 +162,6 @@ const nazcaLayer = L.geoJSON(null, {
           </div>
         `;
 
-
-      // Contenu HTML du popup
-      //const popupContent = `
-      //  <div style="font-size: 15px;">
-      //    <center><h5>${name}</h5></center>
-      //    ${imageHtml}
-      //    <b>Dimensions:</b> ${dimensions}<br>
-      //    </div>`;
-      //
       layer.bindPopup(popupContent);
       
       // Zoom sur le point lorsqu'on clique dessus
