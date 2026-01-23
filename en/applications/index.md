@@ -20,6 +20,7 @@ ref: applications
 <center><h2>Agriculture</h2></center>
 Remote sensing gives farmers and scientists an original point of view on croplands. It helps them track the lands' needs and their evolution. From the lack of water to the outburst and consequences of diseases, satellite and aerial images enbales us to detect all sorts of events.
 
+
 <center>
 <figure class="image-figure text-center">
     <img 
