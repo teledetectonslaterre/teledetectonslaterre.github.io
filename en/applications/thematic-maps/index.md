@@ -83,7 +83,7 @@ software program is QGIS. GIS allows you to create maps. To achieve a more attra
 <h1><strong>Creating the map</strong></h1><br>
 </center>
 
-<h2>1. Research and download data</h2>
+<h2>1. Researching and downloading data</h2>
 <strong>Basemap :</strong>
 The base map has two purposes here: it illustrates the initial state of territorial development and serves as a geometric reference. National archives and universities provide access to historical vector data. This is the case for the
 <a href="https://conservancy.umn.edu/items/4ee837e4-9b34-406e-b4d2-b53a6ae0707c"
