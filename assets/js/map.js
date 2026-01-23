@@ -1,3 +1,17 @@
+const labels = {
+  fr: {
+    dimensions: "Dimensions",
+    unknown_dimensions: "Dimensions inconnues"
+  },
+  en: {
+    dimensions: "Dimensions",
+    unknown_dimensions: "Unknown dimensions"
+  }
+};
+
+const LBL = labels[PAGE_LANG] || labels.en;
+
+
 // Initialisation de la carte
 const nazcaMap = L.map("nazca_map", {
   center: [-14.692514, -75.148889], // Nazca
@@ -103,8 +117,24 @@ const nazcaLayer = L.geoJSON(null, {
 
       const props = feature.properties;
 
-      const name = props.nom || "Nom inconnu";
-      const dimensions = props.dimensions || "Dimensions inconnues";
+      //const name = props.nom || "Nom inconnu";
+      let name;
+      if (PAGE_LANG === "fr") {
+        name = props.nom || "Nom inconnu";
+      } else {
+        name = props.name || "Unknown name";
+      }
+
+
+      //const dimensions = props.dimensions || "Dimensions inconnues";
+      //const dimensions = props.dimensions || LBL.unknown_dimensions;
+      let dimensions;
+      if (PAGE_LANG === "fr") {
+        dimensions = props.dimensions_fr || "Dimensions inconnues";
+      } else {
+        dimensions = props.dimensions_en || "Unknown dimensions";
+      }
+
 
       // Image + source (si disponibles)
       let imageHtml = "";
@@ -126,16 +156,25 @@ const nazcaLayer = L.geoJSON(null, {
           ${props.Source ? `<figcaption style="font-size: 11px; color: #555;">Source : ${props.Source}</figcaption>` : ""}
         </figure>
       `;
-    }
+      } 
+
+      const popupContent = `
+          <div style="font-size: 15px;">
+            <center><h5>${name}</h5></center>
+            ${imageHtml}
+            <b>${LBL.dimensions}:</b> ${dimensions}<br>
+          </div>
+        `;
+
 
       // Contenu HTML du popup
-      const popupContent = `
-        <div style="font-size: 15px;">
-          <center><h5>${name}</h5></center>
-          ${imageHtml}
-          <b>Dimensions:</b> ${dimensions}<br>
-          </div>`;
-      
+      //const popupContent = `
+      //  <div style="font-size: 15px;">
+      //    <center><h5>${name}</h5></center>
+      //    ${imageHtml}
+      //    <b>Dimensions:</b> ${dimensions}<br>
+      //    </div>`;
+      //
       layer.bindPopup(popupContent);
       
       // Zoom sur le point lorsqu'on clique dessus

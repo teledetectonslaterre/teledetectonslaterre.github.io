@@ -130,6 +130,10 @@ function switchLang(targetLang) {
 </script>
 
 <!-- Script personnalisé pour la carte -->
+ <script>
+  const PAGE_LANG = "{{ page.lang | default: 'en' }}";
+</script>
+
 <script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
 

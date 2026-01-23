@@ -1,9 +1,21 @@
 <footer>
+  {% if page.lang == "fr" %}
     <p>
-        Contact :
-        <a href="mailto:teledetectonslaterre@gmail.com">
-            teledetectonslaterre@gmail.com
-        </a>
+      Contact :
+      <a href="mailto:teledetectonslaterre@gmail.com">
+        teledetectonslaterre@gmail.com
+      </a>
     </p>
     <p>Dernière mise à jour : {{ site.time | date: "%d %B %Y" }}</p>
+
+  {% elsif page.lang == "en" %}
+    <p>
+      Contact:
+      <a href="mailto:teledetectonslaterre@gmail.com">
+        teledetectonslaterre@gmail.com
+      </a>
+    </p>
+    <p>Last updated: {{ site.time | date: "%d %B %Y" }}</p>
+
+  {% endif %}
 </footer>
