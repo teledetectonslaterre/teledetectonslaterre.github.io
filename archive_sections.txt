@@ -1,0 +1,5 @@
+Applications
+
+<center><h2>Mapping applications</h2></center>
+
+<div id="map"></div>

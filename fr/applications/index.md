@@ -34,7 +34,7 @@ La télédétections donne aux agriculteurs et aux chercheurs un point de vue in
 <section class="column">
 <center><h2>Archéologie</h2></center>
 La première étape lors d'une fouille archéologique est de représenter l'espace dans lequel a lieu la fouille et de prendre des photos pour savoir exactement le lieux de découverte de chaque objet. La télédétection permet de faire les deux et est devenu un outil indispensables pours les archéologues.<br><br>
-<a href="{{ lang_prefix }}archeologie/" class="link-div">plus...</a>
+<a href="{{ lang_prefix }}archeologie/" class="link-div">Explorer...</a>
 <center>
 <figure class="image-figure text-center">
     <img 
@@ -93,9 +93,21 @@ Tout élève a déjà rencontré des cartes au cours de sa scolarité. Comment m
 </section>
 
 <section class="column">
-<center><h2>Applications cartographiques</h2></center>
+<center><h2>Médiation culturelle</h2></center>
 
-<div id="map"></div>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ '/assets/figures/applications/mediation-culturelle/mission_nice_fr.png' | relative_url }}"
+        alt="Carte Nice Partimoine Mondial"
+        class="img-fluid">
+    <figcaption>Carte Nice Partimoine Mondial</figcaption>
+</figure>
+Beaucoup de musées et de sites historiques ou culturels utilisent des informations géographiques dans la présentation de leur patrimoine. Par exemple, l'information géographique joue un rôle important dans l'inscription de la ville de Nice sur la liste du Patrimoine mondial de l'UNESCO. En effet, ce n'est pas un bâtiment spécifique qui fait la particularité de la ville mais un ensemble architectural. Lire des cartes et se promener virtuellement ou physiquement dans la ville permet donc de comprendre la richesse de ce patrimoine urbain.<br><br>
+
+<a href="https://experience.arcgis.com/experience/8be3cb5e96334182bee170ca22c593f3/page/accueil_sans_photo_fr"
+target="_blank"
+rel="noopener noreferrer">
+Carte interactive de Nice</a>
 
 </section>
 

@@ -36,7 +36,7 @@ Remote sensing gives farmers and scientists an original point of view on croplan
 <center><h2>Archeology</h2></center>
 The first step of any archeological dig is to make a map of the area in which the excavation will take place and to take pictures in order to know the specific location of any discovery. Remote sensing helps archeologists do both and has become an essential tool for them.
 <br><br>
-<a href="{{ lang_prefix }}archeology/" class="link-div">more...</a>
+<a href="{{ lang_prefix }}archeology/" class="link-div">Explore...</a>
 <center>
 <figure class="image-figure text-center">
     <img 
@@ -95,9 +95,22 @@ Every student has encountered maps during their schooling. What better way to re
 </section>
 
 <section class="column">
-<center><h2>Mapping applications</h2></center>
+<center><h2>Cultural mediation</h2></center>
 
-<div id="map"></div>
+<figure class="image-figure text-center">
+    <img 
+        src="{{ '/assets/figures/applications/mediation-culturelle/mission_nice_en.png' | relative_url }}"
+        alt="World Heritage Nice map"
+        class="img-fluid">
+    <figcaption>World Heritage Nice map</figcaption>
+</figure>
+
+Many museums and historical or cultural sites use geographic information in presenting their heritage. For example, geographic information played an important role in Nice being added to UNESCO's World Heritage List. It is not a specific building that makes the city unique, but rather its architectural ensemble. Reading maps and taking a virtual or physical stroll through the city therefore allows visitors to understand the richness of this urban heritage.<br><br>
+
+<a href="https://experience.arcgis.com/experience/8be3cb5e96334182bee170ca22c593f3/page/accueil_sans_photo_en"
+target="_blank"
+rel="noopener noreferrer">
+Interactive Map of Nice</a>
 
 </section>
 
