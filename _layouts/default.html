@@ -33,21 +33,38 @@
 {% include footer.html %}
 
 <script>
-function switchLang(targetLang) {
-  const base = "{{ site.baseurl }}";
-  let path = window.location.pathname.replace(base, '');
+    window.PAGE_LANG = "{{ page.lang | default: 'fr' }}";
+</script>
 
-  if (path.startsWith('/fr/')) {
-    path = path.replace('/fr/', '/' + targetLang + '/');
-  } else if (path.startsWith('/en/')) {
-    path = path.replace('/en/', '/' + targetLang + '/');
-  } else {
-    path = '/' + targetLang + '/';
-  }
 
-  localStorage.setItem('preferredLang', targetLang);
-  window.location.href = base + path;
-}
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const lang = window.PAGE_LANG || "fr";
+    
+      if (lang === "fr") {
+        // show EN button
+        // hide FR button
+      } else {
+        // show FR button
+        // hide EN button
+      }
+    });
+    
+    function switchLang(targetLang) {
+      const base = "{{ site.baseurl }}";
+      let path = window.location.pathname.replace(base, '');
+
+      if (path.startsWith('/fr/')) {
+        path = path.replace('/fr/', '/' + targetLang + '/');
+      } else if (path.startsWith('/en/')) {
+        path = path.replace('/en/', '/' + targetLang + '/');
+      } else {
+        path = '/' + targetLang + '/';
+      }
+
+      localStorage.setItem('preferredLang', targetLang);
+      window.location.href = base + path;
+    }
 </script>
 
 
@@ -130,10 +147,6 @@ function switchLang(targetLang) {
 </script>
 
 <!-- Script personnalisé pour la carte -->
- <script>
-  const PAGE_LANG = "{{ page.lang | default: 'en' }}";
-</script>
-
 <script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
 
