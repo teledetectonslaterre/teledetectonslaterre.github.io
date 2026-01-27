@@ -20,7 +20,7 @@ ref: applications
 <center><h2>Agriculture</h2></center>
 La télédétections donne aux agriculteurs et aux chercheurs un point de vue inédit sur les cultures, pour suivre au mieux leurs besoins et leur évolution. Du manque d'eau à l'apparition et aux conséquences des maladies, les images satellites et aériennes permettent de détecter toutes sortes d'évènements.<br><br>
 
-<a href="{{ lang_prefix }}agricutlure/" class="link-div">Découvrir...</a>
+<a href="{{ lang_prefix }}agriculture/" class="link-div">Découvrir...</a>
 
 <center>
 <figure class="image-figure text-center">
