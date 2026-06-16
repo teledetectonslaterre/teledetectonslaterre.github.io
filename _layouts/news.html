@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="news-article container mt-4">
+
+  <header class="mb-4">
+    <h1>{{ page.title }}</h1>
+
+    {% if page.date %}
+      <p class="text-muted">
+        {{ page.date | date: "%d/%m/%Y" }}
+      </p>
+    {% endif %}
+
+  </header>
+
+  <section class="news-content">
+    <div class="news-page">
+      {{ content }}
+    </div>
+  </section>
+
+</article>

@@ -63,6 +63,13 @@
           </a>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link"
+             href="{% if page.lang == 'fr' %}{{ lang_prefix }}/actualites/{% else %}{{ lang_prefix }}/news/{% endif %}">
+            {% if page.lang == 'fr' %}Actualités{% else %}News{% endif %}
+          </a>
+        </li>
+
       </ul>
 
       <!-- 🌍 SWITCH LANGUE -->

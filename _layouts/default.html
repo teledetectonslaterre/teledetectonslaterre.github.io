@@ -146,5 +146,17 @@
 <script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
 
+<!-- Ouvrir les liens externes dans un nouvel onglet -->
+<script>
+document.querySelectorAll('a[href]').forEach(link => {
+    const url = new URL(link.href, window.location.origin);
+
+    if (url.hostname !== window.location.hostname) {
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+    }
+});
+</script>
+
 </body>
 </html>

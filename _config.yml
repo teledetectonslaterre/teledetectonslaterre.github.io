@@ -6,3 +6,12 @@ plugins:
   - jekyll-sitemap
 
 url: https://teledetectonslaterre.github.io
+
+collections:
+  news_fr:
+    output: true
+    permalink: /fr/actualites/:name/
+
+  news_en:
+    output: true
+    permalink: /en/news/:name/
